@@ -1,6 +1,6 @@
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: web-dmz
+  name: monitoring
   labels:
-    name: web-dmz
+    name: monitoring
