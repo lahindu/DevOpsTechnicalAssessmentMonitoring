@@ -840,6 +840,7 @@ spec:
       port: 80
       protocol: TCP
       targetPort: 9090
+      nodePort: 30100
   selector:
     component: "server"
     app: prometheus
