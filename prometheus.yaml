@@ -845,7 +845,7 @@ spec:
     app: prometheus
     release: prometheus
   sessionAffinity: None
-  type: "ClusterIP"
+  type: "NodePort"
 ---
 # Source: prometheus/templates/daemonsets/node-exporter.yaml
 apiVersion: apps/v1
